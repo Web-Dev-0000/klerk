@@ -1,0 +1,140 @@
+@media (max-width: 1050px) {
+  .product {
+    width: 450px;
+    & img {
+    width: 55px;
+    height: 55px;
+  }
+  } 
+}
+
+@media (max-width: 1000px) {
+  .subscriptions h1 {
+    font-size: 50px;
+  }
+  .product {
+    width: 410px;
+  } 
+}
+
+@media (max-width: 916px) {
+  .subscriptions h1 {
+    font-size: 46px;
+  }
+  .product {
+    width: 100%;
+    & img {
+      width: 90px;
+      height: 90px;
+    }
+  } 
+}
+
+@media (max-width: 760px) {
+  .product {
+    & img {
+      width: 80px;
+      height: 80px;
+    }
+  }
+}
+
+@media (max-width: 670px) {
+ .header {
+   padding-top: 24px;
+  &__nav {
+    margin-top: 28px;
+    width: 274px;
+    & .li-desc {
+      display: none;
+    }
+    & .li-modal {
+      display: block;
+    }
+  }
+ } 
+
+ .subscriptions {
+   .container {
+     padding: 0;
+   }
+   & h1 {
+    font-size: 32px;
+    line-height: 42px;
+    order: -2;
+    margin-top: 8px;
+   }
+
+   &__container {
+     display: flex;
+     flex-direction: column;
+   }
+
+   &__tabs {
+     order: -1;
+   }
+
+   & h3 {
+    text-align: left;
+    font-size: 24px;
+    line-height: 32px;
+    padding-top: 32px;
+    margin-bottom: 16px;
+  }
+
+  &__top {
+    border-radius: 0;
+  }
+  &__form-btn {
+    width: 56px;
+  }
+  .text-1 {display: none;}
+  .text-2 {display: inline;}
+  &__form-input {
+    margin-bottom: 16px;
+  }
+
+  &__products {
+    padding: 32px 16px 32px;
+  }
+ }
+
+ .product {
+   height: 272px;
+   border-radius: 12px;
+   & .checkbox-lab-wrap {
+    left: 16px;
+  }
+  & ul li span {
+    display: inline;
+  }
+ }
+}
+
+@media (max-width: 560px) {
+  .product {
+    & img {
+      width: 65px;
+      height: 65px;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .product {
+    & img {
+      width: 50px;
+      height: 50px;
+    }
+  }
+}
+
+@media (max-width: 420px) {
+  .product {
+    & img {
+      width: 40px;
+      height: 40px;
+      right: 16px;
+    }
+  }
+}

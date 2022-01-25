@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Klerk</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>  
+<header class="header">
+    <a href="#" class="header__logo"><img src="images/SVG/header-logo.svg" alt="klerk-logo"></a>
+      <ul class="header__nav">
+        <li class="li-desc"><a href="#">Хлебные крошки</a></li>
+        <li class="li-desc"><a href="#">Хлебные крошки</a></li>
+        <li class="li-desc"><a href="#">Хлебные крошки</a></li>
+      </ul>
+      <ul class="header__nav">        
+        <li class="li-modal"><a href="#">Главная</a></li>
+        <li class="li-modal"><a href="#">Рассылки</a></li>
+        <li class="li-modal"><a href="#">Хлебные крошки</a></li>
+      </ul>
+</header>
+
+<main>
+  <section class="subscriptions">
+    <div class="container subscriptions__container">
+      <h1 class="title">Подписки «Клерка»</h1>
+
+      <div class="subscriptions__top">
+        <h3 class="title">Выберите рассылки, которые подходят именно вам</h3>
+          <form class="subscriptions__form">
+            <input class="subscriptions__form-input" type="email" name="email" placeholder="Электронная почта">
+            <button class="subscriptions__form-btn" type="submit"> <span class="text-1" id="text-1">Подписаться</span> <span class="text-2"><img src="images/SVG/form-arrow.svg" alt=">"></span> </button>
+
+            <label class="checkbox-lab">
+              <input type="checkbox">
+              <span class="checkbox-lab-switch"></span>
+            </label> <span class="checkbox-lab-text">Подписаться на все рассылки</span>
+          </form>    
+      </div>
+      <ul class="subscriptions__tabs">
+        <li>Рассылки</li>
+        <li>Соцсети</li>
+        <li>Мессенджеры</li>
+      </ul>
+      <div class="subscriptions__products">
+        <div class="subscriptions__products-inner">
+
+          <div class="product">
+            <img src="images/product-1.png" alt="image">
+            <div class="product__wrap">
+              <span class="product__subtitle">Перед рассветом</span>
+              <p class="product__title">Утренний бухгалтер</p>
+              <p class="product__text">Самые важные новости и события за день. Кратко, по делу, структурировано.</p>
+              <ul class="product__list">
+                <li>Новости для бухгалтеров, ИП и директора</li>
+                <li>Подборка статей за день</li>
+              </ul>
+            </div>
+            <div class="checkbox-lab-wrap">
+              <label class="checkbox-lab" id="check1">
+                <input type="checkbox">
+                <span class="checkbox-lab-switch"></span>
+              </label> <span class="checkbox-lab-text">Уже получает <span class="productNumber">59 342</span> человек</span>
+            </div>
+          </div>
+          <div class="product">
+            <img src="images/product-2.png" alt="image">
+            <div class="product__wrap">
+              <span class="product__subtitle">После заката</span>
+              <p class="product__title">Ночной бухгалтер</p>
+              <p class="product__text">Самая краткая газета о налогах и бухучете в мире — современная рассылка для чтения.</p>
+              <ul class="product__list">
+                <li>Анализ, оценка и только самое главное</li>
+                <li>Лучшие комменты юзеров в обзоре</li>
+              </ul>
+            </div>
+            <div class="checkbox-lab-wrap">
+              <label class="checkbox-lab" id="check1">
+                <input type="checkbox">
+                <span class="checkbox-lab-switch"></span>
+              </label> <span class="checkbox-lab-text">Уже получает <span class="productNumber">37 480</span> человек</span>
+            </div>
+          </div>
+          <div class="product">
+            <img src="images/product-3.png" alt="image">
+            <div class="product__wrap">
+              <span class="product__subtitle">Раз в две недели</span>
+              <p class="product__title">Ножницы скидок</p>
+              <p class="product__text">Подборка самых выгодных и полезных спецпредложений от надежных компаний.</p>
+              <ul class="product__list">
+                <li>Акции и скидки от лидеров рынка</li>
+                <li>Те, кто подписался – экономят много денег <span>&#129297;</span> </li>
+              </ul>
+            </div>
+            <div class="checkbox-lab-wrap">
+              <label class="checkbox-lab" id="check1">
+              <input type="checkbox">
+              <span class="checkbox-lab-switch"></span>
+            </label> <span class="checkbox-lab-text">Уже получает <span class="productNumber">92 118</span> человек</span>
+          </div>            
+          </div>
+          <div class="product">
+            <img src="images/product-4.png" alt="image">
+            <div class="product__wrap">
+              <span class="product__subtitle">По мере появления анонсов</span>
+              <p class="product__title">Чемодан вебинаров</p>
+              <p class="product__text">Подборка с анонсами бесплатных вебинаров на самые топовые темы при участии экспертов.</p>
+              <ul class="product__list">
+                <li>Никогда не пришлем платные вебинары</li>
+                <li>Подборка топовых тем для вебинаров</li>
+              </ul>
+            </div>
+            <div class="checkbox-lab-wrap">
+              <label class="checkbox-lab" id="check1">
+                <input type="checkbox">
+                <span class="checkbox-lab-switch"></span>
+              </label> <span class="checkbox-lab-text">Уже получает <span class="productNumber">92 082</span> человек</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>      
+  </section>
+</main>
+<footer class="footer">
+  <a href="#" class="footer__logo"><img src="images/footer-logo.png" alt="footer-logo"></a>
+</footer>
+  
+  
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
